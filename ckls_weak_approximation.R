@@ -1,7 +1,7 @@
 library(ggplot2)
 set.seed(42)
 
-moment_order <- 3        # p in E[X_t^p]; exact coefficients available for p = 2, 3, 7
+moment_order <- 2        # p in E[X_t^p]; exact coefficients available for p = 2, 3, 7
 S0    <- 1               # initial value
 sigma <- 1               # volatility
 alpha <- 5/6             # elasticity; the second-order formulas below are derived for 5/6 only
