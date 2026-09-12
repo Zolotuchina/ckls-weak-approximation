@@ -78,7 +78,7 @@ figure to `figures/`. For a quick test set `n_paths <- 1e4` (runs in seconds).
 
 - `ckls_weak_approximation.R` — analytical moments, discrete samplers, the three schemes, simulation and plot
 - `figures/` — output plots
-- `thesis.pdf` — full thesis (Lithuanian, with an English summary on page 2)
+- `Thesis.pdf` — full thesis (Lithuanian, with an English summary on page 2)
 
 ## References
 
