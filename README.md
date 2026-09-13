@@ -27,8 +27,8 @@ The equation is split into a deterministic part, which is solved exactly, and th
 which is approximated over a time step *h* by a **discrete random variable** whose first moments match
 the moment expansion of *S_h* (split-step method, following Mackevičius and Alfonsi):
 
-- **First-order scheme** — a two-point variable matching the first two moments.
-- **Second-order scheme** — a three-point variable on {0, z₁, z₂} matching the first four moments up to
+- **First-order scheme** - a two-point variable matching the first two moments.
+- **Second-order scheme** - a three-point variable on {0, z₁, z₂} matching the first four moments up to
   O(h³). Two variants are used: one based on raw moments near zero, one based on central moments
   elsewhere, switched at the threshold *C·σ⁶·h³*.
 
@@ -76,9 +76,8 @@ figure to `figures/`. For a quick test set `n_paths <- 1e4` (runs in seconds).
 
 ## Files
 
-- `ckls_weak_approximation.R` — analytical moments, discrete samplers, the three schemes, simulation and plot
-- `figures/` — output plots
-- `Thesis.pdf` — full thesis (Lithuanian, with an English summary on page 2)
+- `ckls_weak_approximation.R` - analytical moments, discrete samplers, the three schemes, simulation and plot
+- `figures/` - output plots
 
 ## References
 
